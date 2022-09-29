@@ -1,15 +1,37 @@
+import ImageHeaderDesktop from "./images/image-header-desktop.jpg";
 
 function App() {
   return (
     <div className="App">
-      Get insights that help your business grow.
-
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.
-
-      10k+ companies
-      314 templates
-      12m+ queries
+      <article>
+        <header>
+          <img
+            src={ImageHeaderDesktop}
+            alt="Group of women working together with laptops"
+          />
+          <h1>
+            Get <i>insights</i> that help your business grow.
+          </h1>
+        </header>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <section>
+          <div>
+            <h2>10k+</h2>
+            <label>companies</label>
+          </div>
+          <div>
+            <h2>314</h2>
+            <label>templates</label>
+          </div>
+          <div>
+            <h2>12m+</h2>
+            <label>queries</label>
+          </div>
+        </section>
+      </article>
     </div>
   );
 }
