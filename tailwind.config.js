@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      inter: ['Inter', 'sans-serif'],
+      lexend: ['Lexend Deca', 'sans-serif'],
+    },
+
     colors: {
       
       /* (main background) */
@@ -16,7 +21,6 @@ module.exports = {
       slightlyTransparentWhite: "hsla(0, 0%, 100%, 0.75)",
       /* (stat headings) */
       slightlyTransparentWhite2: "hsla(0, 0%, 100%, 0.6)",
-    
     },
     extend: {},
   },
